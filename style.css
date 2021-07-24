@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grey: #474747;
+    --black: #252525;
+    --text-color: #d5d5d5;
+    --brdr: #252525;
+    --bg-panel: #303030;
+}
+.container {
+    /* display: flex; */
+    background-color: var(--grey);
+    color: var(--text-color);
+    position: relative;
+}
+
+.top {
+    position: relative;
+    width: 1356px;
+    height: 63px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
